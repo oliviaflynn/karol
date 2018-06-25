@@ -49,6 +49,10 @@ html {
     color: #FFFFFF;
 }
 
+.mainImage {
+    border-radius: 5pt;
+}
+
 #cardOne {
     grid-area: cardOne;
     padding-left: 2%;
