@@ -1,0 +1,76 @@
+@media (min-width:1224px){
+
+#wrapper {
+    border: 1px #f2c488 solid;
+    background-color: #f9ecdc;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    display: grid;
+    grid-template-areas:
+    "navigation"
+    "largeImage"
+    "cardOne"
+    "cardTwo";
+}
+
+html {
+    
+    background-image: url("../img/bg.jpg");
+}
+
+#navigation {    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-area: navigation;
+    font-family: sans-serif;
+    color: #ed7694;
+}
+
+#navigation a {
+    display: flex;
+    color: #ed7694;
+}
+
+#largeImage {
+   
+    text-align: center;
+    background-repeat: no-repeat;
+    font-family: 'Caveat', cursive;
+    grid-area: largeImage;
+    font-size: 40pt;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: #FFFFFF;
+}
+
+#cardOne {
+    grid-area: cardOne;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+}
+
+#cardTwo {
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    grid-area: cardTwo;
+}
+
+footer {
+    grid-area: footer;
+}
+
+.eleven_years_ireen {
+    float: right;
+    border: solid #000000 1px;
+}
+
+}
+
